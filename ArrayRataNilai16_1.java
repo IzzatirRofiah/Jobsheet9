@@ -11,7 +11,7 @@ class ArrayRataNilai16_1 {
     int count = 0;
 
     for (int i = 0; i < nilaiMhs.length; i++) {
-        System.out.print("Masukkan nilai mahasiswa ke-" + (i) + " : " );
+        System.out.print("Masukkan nilai mahasiswa ke-" + i + " : " );
         nilaiMhs[i] = input16.nextInt();
     }
     for (int i = 0; i < nilaiMhs.length; i++) {
